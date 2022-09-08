@@ -32,6 +32,7 @@ Most parts are working well, except the following.
 - Please load optimized defaults firstly, then save changes and reboot into BIOS to continue the following parts.
 
 
+
 - Advanced 
   - CPU Configuration \ Intel Virtualization Technology : **Enabled**
   - PCH Configuration \ Intel Rapid Start Technology \ Intel Rapid Start Technology : **Disabled**
@@ -42,6 +43,7 @@ Most parts are working well, except the following.
   - USB Configuration \ EHCI Hand-off : **Enabled**
   - Onboard Devices Configuration \ Serial Port : **Disabled**
   - Onboard Devices Configuration \ Parallel Port : **Disabled**
+
 
 
 - Boot
