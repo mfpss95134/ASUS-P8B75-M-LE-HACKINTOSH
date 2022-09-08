@@ -41,7 +41,7 @@ Load optimized defaults firstly, then save changes and reboot into BIOS to conti
   - Onboard Devices Configuration \ Serial Port : **Disabled**
   - Onboard Devices Configuration \ Parallel Port : **Disabled**
 
-
+<br>
 
 - Boot
   - Fast Boot : **Disabled**
