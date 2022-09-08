@@ -32,7 +32,7 @@ Most parts are working well, except the following.
 - Please load optimized defaults firstly, then save changes and reboot into BIOS to continue the following parts.
 
 
-
+<br>
 - Advanced 
   - CPU Configuration \ Intel Virtualization Technology : **Enabled**
   - PCH Configuration \ Intel Rapid Start Technology \ Intel Rapid Start Technology : **Disabled**
@@ -45,7 +45,7 @@ Most parts are working well, except the following.
   - Onboard Devices Configuration \ Parallel Port : **Disabled**
 
 
-
+<br>
 - Boot
   - Fast Boot : **Disabled**
   - CSM (Compatibility Support Module) \ Launch CSM : **Disabled**
