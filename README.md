@@ -51,6 +51,14 @@ Load optimized defaults firstly, then save changes and reboot into BIOS to conti
 <br>
 
 ## Screenshots
+<div align="center">
+<img src="https://raw.githubusercontent.com/mfpss95134/ASUS-P8B75-M-LE-HACKINTOSH/main/IMAGEs/01.png">
+<img src="https://raw.githubusercontent.com/mfpss95134/ASUS-P8B75-M-LE-HACKINTOSH/main/IMAGEs/02.png">
+<img src="https://raw.githubusercontent.com/mfpss95134/ASUS-P8B75-M-LE-HACKINTOSH/main/IMAGEs/03.png">
+<img src="https://raw.githubusercontent.com/mfpss95134/ASUS-P8B75-M-LE-HACKINTOSH/main/IMAGEs/04.png">
+<img src="https://raw.githubusercontent.com/mfpss95134/ASUS-P8B75-M-LE-HACKINTOSH/main/IMAGEs/05.png">
+<img src="https://raw.githubusercontent.com/mfpss95134/ASUS-P8B75-M-LE-HACKINTOSH/main/IMAGEs/06.png">
+<div align="left">
 <br>
 
 ## Reference
