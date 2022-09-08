@@ -28,27 +28,26 @@ Most parts are working well, except the following.
 
 <br>
 
-## Recommended BIOS Settings / Modifications
-- Disable
-  - Fast Boot
-  - Secure Boot
-  - Serial/COM Port
-  - Parallel Port
-  - VT-d
-  - CSM
-  - Intel SGX
-  - Intel Platform Trust
-  - CFG Lock
-  
-  
-- Enable
-  - VT-x
-  - Hyper-Threading
-  - Execute Disable Bit
-  - EHCI/XHCI Hand-off
-  - OS type: Windows 8.1/10 UEFI Mode
-  - DVMT Pre-Allocated(iGPU Memory): 32MB
-  - SATA Mode: AHCI
+## Recommended BIOS Settings
+- Please load optimized defaults firstly, then save changes and reboot into BIOS to continue the following parts.
+
+
+- Advanced 
+  - CPU Configuration \ Intel Virtualization Technology : **Enabled**
+  - PCH Configuration \ Intel Rapid Start Technology \ Intel Rapid Start Technology : **Disabled**
+  - PCH Configuration \ Intel Smart Connect Technology \ ISCT Configuration : **Disabled**
+  - SATA Configuration \ SATA Mode Selection : **AHCI**
+  - System Agent Configuration \ Memory Remap Feature : **Enabled**
+  - USB Configuration \ Intel xHCI Mode : **Enabled**
+  - USB Configuration \ EHCI Hand-off : **Enabled**
+  - Onboard Devices Configuration \ Serial Port : **Disabled**
+  - Onboard Devices Configuration \ Parallel Port : **Disabled**
+
+
+- Boot
+  - Fast Boot : **Disabled**
+  - CSM (Compatibility Support Module) \ Launch CSM : **Disabled**
+  - Secure Boot menu \ OS Type : **Other OS**
 <br>
 
 ## Screenshots
