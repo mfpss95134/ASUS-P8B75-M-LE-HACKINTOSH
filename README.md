@@ -29,7 +29,7 @@ Most parts are working well, except the following.
 <br>
 
 ## Recommended BIOS Settings
-- Please load optimized defaults firstly, then save changes and reboot into BIOS to continue the following parts.
+- Load optimized defaults firstly, then save changes and reboot into BIOS to continue the following parts.
 
 <br>
 
