@@ -9,7 +9,7 @@
 | Audio | VT1708S |
 | SSD | Crucial M500 120GB |
 | HDD | TOSHIBA DT01ACA200 1TB |
-| iGPU |  |
+| iGPU | N / A |
 | dGPU | MSI N730K-2GD5 |
 <br>
 
