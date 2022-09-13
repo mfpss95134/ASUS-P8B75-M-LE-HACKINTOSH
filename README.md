@@ -4,14 +4,15 @@
 | Component | Details |
 |:---:|:---:|
 | CPU | Intel Xeon E3-1230v2 |
-| RAM | 8GB DDR3 1600Mhz x2 |
+| RAM | Trascend 8GB DDR3 1600Mhz x2 |
 | MB | ASUS P8B75-M LE |
 | Audio | VT1708S |
 | SSD | Crucial M500 120GB |
 | HDD | TOSHIBA DT01ACA200 1TB |
-| iGPU | N / A |
+| iGPU |  |
 | dGPU | MSI N730K-2GD5 |
 <br>
+
 
 ## Supported Versions
 - macOS Catalina 10.15.7
@@ -19,35 +20,36 @@
 - macOS Monterey 12.0 (Not tested)
 <br>
 
+
 ## Known Issues
 Most parts are working well, except the following.
 
 | Component | Status | Description |
 |:---|:---|:---|
-| Microphone | Working, but defective | The input sound gets crackled with input volume turned to high level in settings.<br> |
-
+| Microphone | Working, but defective | The input sound gets crackled with input volume turned to high level in settings.<br><br>If you are running macOS 11.3+, you will need to drop the VoodooHDA.kext customized for VT1708S to /S/L/E on your own. |
+|CFG Lock| Enabled | I have not found any method to disable CFG Lock. So, the power management may be worse than the native ones. |
 <br>
+
 
 ## Recommended BIOS Settings
-- Advanced 
-  - CPU Configuration \ Intel Virtualization Technology : **Enabled**
-  - PCH Configuration \ Intel Rapid Start Technology \ Intel Rapid Start Technology : **Disabled**
-  - PCH Configuration \ Intel Smart Connect Technology \ ISCT Configuration : **Disabled**
-  - SATA Configuration \ SATA Mode Selection : **AHCI**
-  - System Agent Configuration \ Memory Remap Feature : **Enabled**
-  - USB Configuration \ Intel xHCI Mode : **Enabled**
-  - USB Configuration \ EHCI Hand-off : **Enabled**
-  - Onboard Devices Configuration \ Serial Port : **Disabled**
-  - Onboard Devices Configuration \ Parallel Port : **Disabled**
+  - Advanced 
+    - CPU Configuration \ Intel Virtualization Technology : **Enabled**
+    - PCH Configuration \ Intel Rapid Start Technology \ Intel Rapid Start Technology : **Disabled**
+    - PCH Configuration \ Intel Smart Connect Technology \ ISCT Configuration : **Disabled**
+    - SATA Configuration \ SATA Mode Selection : **AHCI**
+    - System Agent Configuration \ Memory Remap Feature : **Enabled**
+    - USB Configuration \ Intel xHCI Mode : **Enabled**
+    - USB Configuration \ EHCI Hand-off : **Enabled**
+    - Onboard Devices Configuration \ Serial Port : **Disabled**
+    - Onboard Devices Configuration \ Parallel Port : **Disabled**
 
+
+  - Boot
+    - Fast Boot : **Disabled**
+    - CSM (Compatibility Support Module) \ Launch CSM : **Disabled**
+    - Secure Boot menu \ OS Type : **Other OS**
 <br>
 
-- Boot
-  - Fast Boot : **Disabled**
-  - CSM (Compatibility Support Module) \ Launch CSM : **Disabled**
-  - Secure Boot menu \ OS Type : **Other OS**
-
-<br>
 
 ## Screenshots
 <div align="center">
@@ -60,10 +62,14 @@ Most parts are working well, except the following.
 <div align="left">
 <br>
 
+
 ## Reference
-- <https://zhuanlan.zhihu.com/p/266400995>
-- <https://blog.csdn.net/weixin_42525211/article/details/112126322>
+- <https://blog.csdn.net/amoscn/article/details/113703944>
+- <https://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1862613>
+- <https://www.zdynb.cn/2020/jie-suo-cfg-lock.html>
+- <https://www.youtube.com/watch?v=uS3X13naPcM>
 <br>
+
 
 ## Credits
 - [**Apple**](https://www.apple.com/tw/) for the macOS.
