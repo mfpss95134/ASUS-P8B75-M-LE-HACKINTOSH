@@ -4,7 +4,7 @@
 | Component | Details |
 |:---:|:---:|
 | CPU | Intel Xeon E3-1230v2 |
-| RAM | Trascend 8GB DDR3 1600Mhz x2 |
+| RAM | ADATA 8GB DDR3 1600Mhz x2 |
 | MB | ASUS P8B75-M LE |
 | Audio | VT1708S |
 | SSD | Crucial M500 120GB |
